@@ -12,10 +12,10 @@
     Dpad: https://gamepadviewer.com/ps4-assets/dpad.svgz
 
     I'd highly recommend downloading these directly, then editing them in your vector (or bitmap)
-    editor of choice. After that, upload them onto your image host of choice (I typically use Imgur)
-    and get a link to a direct image. Once that's done, substitute the image URLs used in the CSS
-    code below (betweent the parentheses on the lines containing 'background: url();') with your 
-    own custom ones for the corresponding parts and you should be good to go!
+    editor of choice and get them exported as a .png file (unless you are hosting the files on your own site). 
+    After that, upload them onto your image host of choice (I typically use Imgur and get a link to a direct image. 
+    Once that's done, substitute the image URLs used in the CSS code below (betweent the parentheses on the lines 
+    containing 'background: url();') with your own custom ones for the corresponding parts and you should be good to go!
 
     The easiest method to get your custom controller showing up is to copy all of the
     lines below this comment directly into the custom CSS box under the "properties" for
