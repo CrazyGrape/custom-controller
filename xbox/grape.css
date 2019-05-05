@@ -1,0 +1,61 @@
+body { 
+    background-color: rgba(0, 0, 0, 0); 
+    margin: 0px auto; 
+    overflow: hidden; } 
+.controller.xbox{
+    background: url(https://i.imgur.com/7aGrO7J.png);
+    height: 630px;
+    width: 750px;
+    margin-left: -375px;
+    margin-top: -285px;
+} .xbox .stick {
+    position: absolute;
+    background: url(https://i.imgur.com/9uaJEnG.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+} .xbox .button {
+    position: absolute;
+    background: url(https://i.imgur.com/4pbUl1A.png);
+    width: 48px;
+    height: 48px;
+} .xbox .a {
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+} .xbox .b {
+    background-position: -49px 0;
+    top: 58px;
+    right: 0px;
+} .xbox .x {
+    background-position: -98px 0;
+    top: 58px;
+    left: 4px;
+} .xbox .y {
+    background-position: 48px 0;
+    left: 55px;
+    top: 7px;
+} .xbox .quadrant { display: none; } .xbox .back, .xbox .start {
+    background: url(https://i.imgur.com/hBNewez.png);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+} .xbox .start {
+    background-position: 33px 0px;
+    float: right;
+} .xbox .face {
+    background: url(https://i.imgur.com/zuLmVIg.png);
+    position: absolute;
+    opacity: 0;
+} .xbox .bumper {
+    width: 170px;
+    height: 61px;
+    background: url(https://i.imgur.com/WEOgZMH.png);
+    opacity: 0;
+} .xbox .trigger {
+    width: 88px;
+    height: 121px;
+    background: url(https://i.imgur.com/7NAIVT5.png);
+    opacity: 0;
+margin-top: 28px;
+}
