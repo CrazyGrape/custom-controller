@@ -12,10 +12,10 @@
     Dpad: https://gamepadviewer.com/ps4-assets/dpad.svgz
 
     I'd highly recommend downloading these directly, then editing them in your vector (or bitmap)
-    editor of choice and get them exported as a .png file (unless you are hosting the files on your own site). 
-    After that, upload them onto your image host of choice (I typically use Imgur and get a link to a direct image. 
-    Once that's done, substitute the image URLs used in the CSS code below (betweent the parentheses on the lines 
-    containing 'background: url();') with your own custom ones for the corresponding parts and you should be good to go!
+    editor of choice. After that, upload them onto your image host of choice (I typically use Imgur)
+    and get a link to a direct image. Once that's done, substitute the image URLs used in the CSS
+    code below (betweent the parentheses on the lines containing 'background: url();') with your 
+    own custom ones for the corresponding parts and you should be good to go!
 
     The easiest method to get your custom controller showing up is to copy all of the
     lines below this comment directly into the custom CSS box under the "properties" for
@@ -25,52 +25,34 @@
 /* The Base controller, over which button presses are rendered */
 .controller.ds4 {
     background: url(https://gamepadviewer.com/ps4-assets/base.svgz);
-    height: 598px;
-    width: 806px;
 }
 
 /* Triggers */
 .ds4 .trigger {
-    width: 99px;
-    height: 100%;
     background: url(https://gamepadviewer.com/ps4-assets/triggers.svgz);
-    opacity: 0;
 }
 
 /* Bumpers */
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
     background: url(https://gamepadviewer.com/ps4-assets/bumper.svgz) no-repeat;
-    opacity: 0;
 }
 
 /* Share and Start */
 .ds4 .back, .ds4 .start {
     background: url(https://gamepadviewer.com/ps4-assets/start.svgz);
-    width: 28px;
-    height: 46px;
-    opacity: 0;
 }
 
 /*The ABXY (or rather XOTriSquare)*/
 .ds4 .button {
-    position: absolute;
-    width: 55px;
-    height: 55px;
     background: url(https://gamepadviewer.com/ps4-assets/face.svgz);
 }
 
 /* Joysticks */
 .ds4 .stick {
-    position: absolute;
     background: url(https://gamepadviewer.com/ps4-assets/sticks.svgz);
-    height: 94px;
-    width: 94px;
 }
 
 /* Dpad */
 .ds4 .face {
     background: url(https://gamepadviewer.com/ps4-assets/dpad.svgz);
-    position: absolute;
 }
